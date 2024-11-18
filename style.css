@@ -1,0 +1,58 @@
+.navmain{
+    font-family: "Noto Serif", serif;
+}
+.img{
+    display:flex;
+    padding: 20px;
+}
+.img img{
+    width: 80%;
+    height: 80%;
+    margin: 0px auto;
+}
+.bg-blck{
+    background-color:gray ;
+    position: sticky;
+    top: 0px;
+    z-index:3;
+}
+.blcolor img{
+  width :60px;
+  color: gray;
+}
+.navbars-item{
+    color: white !important;
+}
+.blcolor{
+    /* background-color: black !important; */
+    color: white !important;
+}
+@media only screen and (max-width: 600px) {
+    .img img{
+        width: 100%;
+        height: 100%;
+    }
+    .img{
+        padding: 10px;
+    }
+  }
+  .caurosal-hgt{
+height: 100%;
+  }
+  .card-image{
+    height:200px;
+  }
+  .card-cnt{
+    margin: 0px auto ;
+    background-color: gray;
+}
+.bg-gray{
+      background-color: rgba(128, 128, 128, 0.596);
+  }
+  li{
+list-style-type: none;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
